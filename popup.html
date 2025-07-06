@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notebook Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <div class="logo-icon">NB</div>
+        <div class="logo-text">Notebook Pro</div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="notes">📝 Notes</button>
+      <button class="tab" data-tab="bookmarks">🔖 Bookmarks</button>
+    </div>
+
+    <div id="notes-tab" class="tab-content active">
+      <div class="section-title">Your Notes</div>
+      <textarea id="note" placeholder="Type your thoughts, ideas, or important information here..."></textarea>
+      <button id="save-note">
+        <span>💾</span> Save Note
+      </button>
+      <div id="note-status" class="status"></div>
+    </div>
+
+    <div id="bookmarks-tab" class="tab-content">
+      <div class="section-title">Save New Bookmark</div>
+      <input type="text" id="url" placeholder="https://example.com">
+      <input type="text" id="title" placeholder="Website title">
+      <button id="save-bookmark">
+        <span>➕</span> Add Bookmark
+      </button>
+      <div id="bookmark-status" class="status"></div>
+      
+      <div class="section-title">Saved Bookmarks</div>
+      <div id="bookmarks-list">
+        <!-- Bookmarks will be added here -->
+      </div>
+    </div>
+    
+    <div class="footer">
+      Notebook Pro v1.0 • Your thoughts, organized
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
