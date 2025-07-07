@@ -24,7 +24,8 @@
 ## 🖼️ Preview
 
 ### Notes Panel
-![Screenshot 2025-07-07 093906](https://github.com/user-attachments/assets/4bb4c968-f537-472d-8b6f-7fe7aaa6e5d4)
+![Screenshot 2025-07-07 094939](https://github.com/user-attachments/assets/7d9029da-8d98-49fb-8fc0-3d65728f51b2)
+
 
 
 ### Bookmarks Panel
